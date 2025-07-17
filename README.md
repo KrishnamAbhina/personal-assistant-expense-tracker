@@ -1,24 +1,34 @@
 # 💰 Personal Finance Tracker
 
-A full-stack web application that helps users manage their finances by tracking incomes, expenses, viewing past transactions, and setting bill reminders with optional email notifications.
+A **full-stack MERN web app** that empowers users to manage their money smartly — track incomes and expenses, monitor transaction history, and stay ahead of bills with timely reminders and email alerts. Now includes a smart chat assistant powered by Gemini 1.5 Flash for personalized financial advice!
+
+---
 
 ## 🚀 Features
 
-- ✅ User Registration & Login with JWT Auth
-- 📈 Dashboard for Income, Expenses, and Balance Summary
-- 📜 View Transaction History (Color-coded: Green = Income, Red = Expense)
-- ➕ Add/Delete Incomes & Expenses
-- ⏰ Bill Reminders with optional Email Notifications
-- 🖼️ User profile with uploaded display picture
-- 🔐 Secure APIs with token-based authentication
+- ✅ **User Authentication** – Secure JWT-based registration & login
+- 📊 **Dashboard** – Real-time overview of income, expense, and balance
+- 📜 **Transactions** – View history with color-coded entries (🟢 Income / 🔴 Expense)
+- ➕ **Add/Delete** – Easily manage income and expense records
+- ⏰ **Bill Reminders** – Add due dates with optional email notifications
+- 📧 **Email Alerts** – Receive payment reminders directly in your inbox
+- 🔐 **Protected Routes** – All backend APIs use token-based security
+- 🤖 **Chat Assistant** – Ask questions like “What did I spend most on last week?” using Gemini 1.5
+
+---
 
 ## 🛠️ Tech Stack
 
-**Frontend**: React, Styled-Components  
-**Backend**: Node.js, Express.js  
-**Database**: MongoDB (via Mongoose)  
-**Authentication**: JWT (JSON Web Token)  
-**Other Tools**: Nodemailer (for email), Axios
+| Layer        | Tools                                |
+|--------------|---------------------------------------|
+| **Frontend** | React, Styled-Components, Axios       |
+| **Backend**  | Node.js, Express.js                   |
+| **Database** | MongoDB (Mongoose ODM)                |
+| **Auth**     | JWT (JSON Web Token)                  |
+| **Email**    | Nodemailer                            |
+| **AI Chat**  | Gemini 1.5 via Google AI Studio       |
+
+---
 
 ## 📦 Installation
 
